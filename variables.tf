@@ -25,6 +25,6 @@ variable "image" {
     type = map(string)
     description = "image id for the compute engine instance"
     default = {
-        us-central1 = "Ubuntu 18.04 LTS"
+        us-central1 = "Ubuntu 22.10"
     }
 }
